@@ -239,7 +239,7 @@ body {
 }
 .pageIndicator {
     height: 135px;
-    left: calc(50% + 600px);
+    left: calc(50% + 700px);
     position: fixed;
     top: 50%;
     width: 2px;
