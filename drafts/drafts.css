@@ -1,0 +1,513 @@
+/* @font-face {
+  font-family: dp-icomoon;
+  src: url(https://www.senhoog.com/typo3conf/ext/dp_cookieconsent/Resources/Public/fonts/icomoon.eot?b534315f4949ed02298980b146c9a049);
+  src: url(https://www.senhoog.com/typo3conf/ext/dp_cookieconsent/Resources/Public/fonts/icomoon.eot?b534315f4949ed02298980b146c9a049#iefix)
+      format("embedded-opentype"),
+    url(https://www.senhoog.com/typo3conf/ext/dp_cookieconsent/Resources/Public/fonts/icomoon.ttf?ffd3aa080571c3d5085ca0ee029ac730)
+      format("truetype"),
+    url(https://www.senhoog.com/typo3conf/ext/dp_cookieconsent/Resources/Public/fonts/icomoon.woff?3921146f40d360ea6225ec379a33bbb3)
+      format("woff"),
+    url(https://www.senhoog.com/typo3conf/ext/dp_cookieconsent/Resources/Public/fonts/icomoon.svg?666a31a3ec254bfa28069c254d2abd9d#icomoon)
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+[class*=" dp--icon-"],
+[class^="dp--icon-"] {
+  font-family: dp-icomoon !important;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+} */
+/* a,
+body,
+div,
+html,
+s,
+span {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  font: inherit;
+  vertical-align: baseline;
+} */
+/* body,
+html {
+  width: 100vw;
+  height: 100%;
+} */
+/* a {
+  transition: 0.2s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+  display: inline-block;
+} */
+/* b {
+  font-weight: 700;
+} */
+/* body {
+  overflow-x: hidden;
+  background-color: #eee;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+  font-display: swap;
+} */
+/* a {
+  outline: 0;
+} */
+
+
+button {
+  
+  border-radius: 0 !important;
+  -webkit-appearance: none !important;
+  border: 0px solid transparent;
+  outline: 0;
+}
+/* :root {
+  font-size: 10px !important;
+} */
+@media (min-width: 480px) {
+  :root {
+    font-size: 12px !important;
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    font-size: 14px !important;
+  }
+}
+@media (min-width: 992px) {
+  :root {
+    font-size: 15px !important;
+  }
+}
+@media (min-width: 1024px) {
+  :root {
+    font-size: 6px !important;
+  }
+}
+@media (min-width: 1440px) {
+  :root {
+    font-size: 8px !important;
+  }
+}
+@media (min-width: 1920px) {
+  :root {
+    font-size: 10px !important;
+  }
+/* }
+body {
+  font-family: adobe-garamond-pro, serif;
+  font-size: 2.2rem;
+  line-height: 227%;
+  letter-spacing: 0.1em;
+  color: #1d1d1b;
+}
+@media (max-width: 1023px) {
+  body {
+    font-size: 1.6rem;
+    line-height: 200%;
+    letter-spacing: 0.05em;
+  }
+}
+a {
+  color: #1d1d1b;
+  text-decoration: underline;
+  transition: 0.2s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+  display: inline;
+  position: relative;
+}
+a:hover {
+  color: rgba(var(--colorMain), 0.8);
+}
+a.button {
+  text-decoration: none;
+}
+a.button:hover {
+  text-decoration: none;
+} */
+/* .button,
+button:not(.lightpick__next-action):not(.lightpick__previous-action):not([data-controls="next"]):not([data-controls="prev"]) {
+  font-size: 2.2rem;
+  line-height: 168%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 2.55rem 6rem;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(var(--colorMain));
+  border: 1px solid rgb(var(--colorMain));
+  transition: 0.2s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+  background: rgba(var(--colorMain), 0.8)
+    radial-gradient(circle, transparent 1%, rgba(var(--colorMain), 0.05) 1%)
+    center/15000%;
+  border-color: rgb(var(--colorMain));
+} */
+/* @media (max-width: 1023px) {
+  .button,
+  button:not(.lightpick__next-action):not(.lightpick__previous-action):not([data-controls="next"]):not([data-controls="prev"]) {
+    font-size: 1.6rem;
+    line-height: 156%;
+    letter-spacing: 0.05em;
+  }*/
+} 
+.button:hover,
+button:not(.lightpick__next-action):not(.lightpick__previous-action):not([data-controls="next"]):not([data-controls="prev"]):hover {
+  background-color: transparent;
+  color: rgba(var(--colorMain), 0.8);
+}
+.button:active,
+button:not(.lightpick__next-action):not(.lightpick__previous-action):not([data-controls="next"]):not([data-controls="prev"]):active {
+  background-color: rgba(var(--colorMain), 0.05);
+  background-size: 100%;
+  -webkit-transition: background 0s;
+  -moz-transition: background 0s;
+  -o-transition: background 0s;
+  -ms-transition: background 0s;
+  transition: background 0s;
+}
+@media (max-width: 1023px) {
+  .button,
+  button:not(.lightpick__next-action):not(.lightpick__previous-action):not([data-controls="next"]):not([data-controls="prev"]) {
+    padding: 1.5rem 3rem;
+  }
+}
+/* :root {
+  --scrollbar-size: 1rem;
+  --scrollbar-minlength: 1.5rem;
+  --scrollbar-ff-width: thin;
+  --scrollbar-track-color: transparent;
+  --scrollbar-color: rgba(0, 0, 0, 0.8);
+  --scrollbar-color-hover: #000000;
+  --scrollbar-color-active: rgba(29, 29, 27, 0.8);
+} */
+@keyframes hoverText {
+  0% {
+    right: -1000px;
+    opacity: 1;
+  }
+  100% {
+    right: 54px;
+    opacity: 1;
+  }
+}
+/* @keyframes removeBlack {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: transparent;
+  }
+} */
+/* @keyframes addPerisitantSign {
+  0% {
+    background-image: none;
+  }
+  80% {
+    background-image: none;
+  }
+  100% {
+    background-image: url(https://www.senhoog.com/fileadmin/templates/hantha_modules/spc_hanthaSignet/hanthaSignet.svg);
+  }
+} */
+/* :root {
+  --grid-gap: 3rem;
+  --grid-margin: 8%;
+}
+@media (max-width: 1023px) {
+  :root {
+    --grid-gap: 0.75rem;
+  }
+}
+:root {
+  color-scheme: light;
+} */
+/* .body {
+  background-image: linear-gradient(#fff, #fff);
+  -webkit-text-fill-color: #000;
+  color: #000;
+  -webkit-border-before: 2px solid #000;
+  -webkit-border-after: 2px solid #000;
+  -webkit-border-start: 2px solid #000;
+  -webkit-border-end: 2px solid #000;
+} */
+.sidepanel {
+  /* transform: rotate(-90deg); */
+  position: fixed;
+  right:0;
+  top: 90%;
+  /* top: calc(50vh - ((7.5rem * 3) - 2px) / 2); */
+  z-index: 5;
+  /* display: -ms-grid;
+  display: grid; */
+  pointer-events: none;
+  /* -ms-grid-rows: auto 0 auto 0 auto;
+  grid-template-rows: auto auto auto;
+  grid-row-gap: 0;
+  -ms-grid-columns: auto;
+  grid-template-columns: auto;
+  grid-column-gap: 0; */
+}
+.sidepanel .button {
+  
+  width: auto;
+  height: 5rem;
+  -webkit-transform: translateX(calc(100% - 7.5rem));
+  transform: translateX(calc(100% - 7.5rem));
+  padding: 0;
+  position: relative;
+  transition: 0.2s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+  grid-column-start: 1;
+  -ms-grid-column: 1;
+  grid-column-end: span 1;
+  -ms-grid-column-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-row-span: 1;
+  pointer-events: all;
+  justify-self: flex-end;
+}
+.sidepanel .button a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 7.5rem;
+  padding-right: 1rem;
+  text-decoration: none;
+}
+.sidepanel .button a span {
+  white-space: pre;
+  font-size: 1.5rem;
+  line-height: 120%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  /* background-color: rgb(204, 204, 204); */
+  /* color: gray; */
+  
+  font-weight: 300;
+  color: #fff;
+  
+}
+@media (max-width: 1023px) {
+  .sidepanel .button a span {
+    font-size: 1.5rem;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+  }
+}
+.sidepanel .button:hover {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+.sidepanel .button::after {
+  /* mix-blend-mode: difference; */
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: transparent;
+  z-index: -1;
+}
+.sidepanel .button.request {
+  margin: 1px 0;
+  border: none;
+  transition: 0.2s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+  grid-row-start: 2;
+  -ms-grid-row: 3;
+}
+/* .sidepanel .button.request a {
+  background-color: #fff;
+  background: transparent
+    radial-gradient(circle, transparent 1%, rgba(var(--colorMain), 0.05) 1%)
+    center/15000%;
+} */
+/* .sidepanel .button.request a:hover svg .a {
+  stroke: green;
+}
+.sidepanel .button.request span {
+  color: rgb(var(--colorMain));
+} */
+/* .sidepanel .button.request:active {
+  background-color: transparent;
+  background-size: 100%;
+  -webkit-transition: background 0s;
+  -moz-transition: background 0s;
+  -o-transition: background 0s;
+  -ms-transition: background 0s;
+  transition: background 0s;
+}
+.sidepanel .button.request svg .a {
+  stroke: rgb(var(--colorMain));
+} */
+.sidepanel .button.booking {
+  border: none;
+  transition: 0.2s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+  grid-row-start: 1;
+  -ms-grid-row: 1;
+}
+.sidepanel .button.booking a {
+  background-color: rgba(var(--colorMain), 0.8);
+  background: #fff
+    radial-gradient(circle, transparent 1%, rgba(var(--colorMain), 0.3) 1%)
+    center/15000%;
+}
+.sidepanel .button.booking a:hover {
+  background-color: rgba(var(--colorMain), 0.7);
+}
+.sidepanel .button.booking a:active {
+  background-color: rgba(var(--colorMain), 0.3);
+  background-size: 100%;
+  -webkit-transition: background 0s;
+  -moz-transition: background 0s;
+  -o-transition: background 0s;
+  -ms-transition: background 0s;
+  transition: background 0s;
+}
+/* .sidepanel .button.ajaxSwitcher {
+  border: none;
+  transition: 0.2s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+  grid-row-start: 3;
+  -ms-grid-row: 5;
+}
+.sidepanel .button.ajaxSwitcher a {
+  background-color: rgb(var(--colorOther));
+  background: rgb(var(--colorOther))
+    radial-gradient(circle, transparent 1%, rgba(var(--colorOther), 0.3) 1%)
+    center/15000%;
+}
+.sidepanel .button.ajaxSwitcher a:hover {
+  background-color: rgba(var(--colorOther), 0.9);
+} */
+/* .sidepanel .button.ajaxSwitcher a:active {
+  background-color: rgba(var(--colorOther), 0.3);
+  background-size: 100%;
+  -webkit-transition: background 0s;
+  -moz-transition: background 0s;
+  -o-transition: background 0s;
+  -ms-transition: background 0s;
+  transition: background 0s;
+} */
+.sidepanel .button a {
+  height: 100%;
+}
+.sidepanel .button svg {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: .5rem;
+}
+/* .sidepanel .button svg .a {
+  fill: transparent;
+} */
+
+/* .loader {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.9);
+  background-image: url(https://www.senhoog.com/fileadmin/templates/images/icons/icon_loader.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+} */
+@media (max-width: 1023px) {
+  /* .sidepanel {
+    z-index: 30;
+    left: 0;
+    top: 0;
+    right: auto;
+  } */
+  /* .sidepanel .button.ajaxSwitcher {
+    width: 6rem;
+    height: 9rem;
+    max-height: 9rem;
+    max-width: 6rem;
+    overflow: hidden;
+    -webkit-transition: all 0s;
+    -moz-transition: all 0s;
+    -o-transition: all 0s;
+    -ms-transition: all 0s;
+    transition: all 0s;
+    -webkit-transform: none;
+    transform: none;
+  } */
+  /* .sidepanel .button svg {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    padding: 0 1rem;
+    transition: 0.2s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+  } */
+  /* .sidepanel .button.request {
+    display: none;
+  } */
+  /* .sidepanel .button.booking {
+    display: none;
+  }
+  .sidepanel .button a {
+    padding: 0;
+  }
+  .sidepanel .button a span {
+    display: none;
+  } */
+}
