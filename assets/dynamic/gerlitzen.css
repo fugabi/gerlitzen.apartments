@@ -377,8 +377,23 @@ body {
     #sommer {
         display: none;
     }
+    #small {
+        display: none;
+    }
 }
 
+@media all and (max-width: 768px) {
+    #big {
+        display: none;
+    }
+}
+
+
+@media all and (min-width: 768px) {
+    #sommer {
+        display: none;
+    }
+}
 
 
 @media all and (max-width: 600px) {
@@ -1585,7 +1600,7 @@ footer .copyright .item .label {
 }
 @media all and (max-width: 768px) {
     .quoteBlock {
-        padding-bottom: 200px;
+        /* padding-bottom: 200px; */
     }
     .quoteBlock .bigHugeTitle {
         text-align: left;
@@ -1647,7 +1662,7 @@ footer .copyright .item .label {
 
 @media all and (max-width: 768px) {
     .apt {
-        padding-bottom: 200px;
+        padding: 10px 0;
     }
     .apt .listing {
         text-align: left;
@@ -1656,7 +1671,8 @@ footer .copyright .item .label {
         display: none;
     }
     .apt .listing {
-        display: none;
+        /* display: none; */
+        padding: 50px 0;
     }
 }
 
